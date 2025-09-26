@@ -1,0 +1,29 @@
+```json
+
+{
+
+"name": "fantacalcio-app",
+
+"version": "1.0.0",
+
+"description": "FantaCalcio League Management System",
+
+"scripts": {
+
+"start": "uvicorn backend.server_railway:app --host 0.0.0.0 --port $PORT",
+
+"build": "cd frontend && npm install && npm run build",
+
+"dev": "cd backend && uvicorn server_railway:app --reload"
+
+},
+
+"keywords": ["fantacalcio", "football", "league"],
+
+"author": "Your Name",
+
+"license": "MIT"
+
+}
+
+```
